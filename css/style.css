@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+
+nav {
+    min-height: 80px;
+    background-color: rgb(29, 151, 111);
+}
+
+nav span {
+    height: 80px;
+    display: block;
+    width: 60px;
+    background-color: beige;
+    color: rgba(7, 7, 7, 0.89);
+    margin: 0 130px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 22px;
+}
+
+.sidebar {
+    width: 300px;
+    padding: 20px 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: calc(100vh-80px); 
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.5s;
+}
+
+.sidebar h2 {
+    color: rgb(28, 13, 116);
+    text-align: center;
+}
+
+.activeSideBar {
+    transform: scaleX(1);
+}
